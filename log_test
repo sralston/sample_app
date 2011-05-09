@@ -1,37 +1,3 @@
-2011-05-11T21:09:04+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=3ms bytes=922
-2011-05-11T21:09:04+00:00 app[web.1]: 
-2011-05-11T21:09:04+00:00 app[web.1]: ActionController::RoutingError (No route matches "/users/1"):
-2011-05-11T21:09:04+00:00 app[web.1]:   
-2011-05-11T21:09:04+00:00 app[web.1]: 
-2011-05-11T21:09:04+00:00 app[web.1]: 
-2011-05-11T14:09:05-07:00 heroku[nginx]: GET /users/1 HTTP/1.1 | 69.181.3.17 | 952 | http | 404
-2011-05-11T21:09:08+00:00 app[web.1]: 
-2011-05-11T21:09:08+00:00 app[web.1]: 
-2011-05-11T21:09:08+00:00 app[web.1]: Started GET "/" for 69.181.3.17 at Wed May 11 14:09:08 -0700 2011
-2011-05-11T21:09:08+00:00 app[web.1]:   Processing by PagesController#home as HTML
-2011-05-11T21:09:08+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.7ms)
-2011-05-11T21:09:08+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (3.7ms)
-2011-05-11T21:09:08+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 13.9ms)
-2011-05-11T21:09:08+00:00 heroku[router]: GET warm-snow-497.heroku.com/ dyno=web.1 queue=0 wait=0ms service=20ms bytes=2114
-2011-05-11T21:09:09+00:00 heroku[router]: GET warm-snow-497.heroku.com/stylesheets/custom.css dyno=web.1 queue=0 wait=0ms service=2ms bytes=1575
-2011-05-11T14:09:09-07:00 heroku[nginx]: GET / HTTP/1.1 | 69.181.3.17 | 1340 | http | 200
-2011-05-11T14:09:09-07:00 heroku[nginx]: GET /stylesheets/blueprint/screen.css?1305148030 HTTP/1.1 | 69.181.3.17 | 3621 | http | 200
-2011-05-11T14:09:09-07:00 heroku[nginx]: GET /stylesheets/blueprint/print.css?1305148030 HTTP/1.1 | 69.181.3.17 | 995 | http | 200
-2011-05-11T14:09:09-07:00 heroku[nginx]: GET /images/logo.png?1305148030 HTTP/1.1 | 69.181.3.17 | 56588 | http | 200
-2011-05-11T21:09:12+00:00 app[web.1]: 
-2011-05-11T21:09:12+00:00 app[web.1]: 
-2011-05-11T21:09:12+00:00 app[web.1]: Started GET "/contact" for 69.181.3.17 at Wed May 11 14:09:12 -0700 2011
-2011-05-11T21:09:12+00:00 app[web.1]:   Processing by PagesController#contact as HTML
-2011-05-11T21:09:12+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
-2011-05-11T21:09:12+00:00 app[web.1]: Rendered pages/contact.html.erb within layouts/application (2.2ms)
-2011-05-11T21:09:12+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
-2011-05-11T14:09:12-07:00 heroku[nginx]: GET /contact HTTP/1.1 | 69.181.3.17 | 1311 | http | 200
-2011-05-11T21:09:09+00:00 heroku[router]: GET warm-snow-497.heroku.com/stylesheets/blueprint/print.css dyno=web.1 queue=0 wait=0ms service=2ms bytes=1534
-2011-05-11T21:09:16+00:00 app[web.1]:   
-2011-05-11T14:09:16-07:00 heroku[nginx]: GET /users HTTP/1.1 | 69.181.3.17 | 953 | http | 404
-2011-05-11T21:09:18+00:00 app[web.1]: 
-2011-05-11T21:09:18+00:00 app[web.1]: 
-2011-05-11T21:09:18+00:00 app[web.1]: Started GET "/users/1" for 69.181.3.17 at Wed May 11 14:09:18 -0700 2011
 2011-05-11T21:09:18+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=4ms bytes=922
 2011-05-11T21:09:18+00:00 app[web.1]: 
 2011-05-11T21:09:18+00:00 app[web.1]: ActionController::RoutingError (No route matches "/users/1"):
@@ -98,3 +64,37 @@
 2011-05-11T21:20:49+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
 2011-05-11T21:20:49+00:00 app[web.1]: Rendered users/new.html.erb within layouts/application (2.3ms)
 2011-05-11T21:20:49+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+2011-05-11T14:43:44-07:00 heroku[slugc]: Slug compilation started
+2011-05-11T14:43:49-07:00 heroku[api]: Deploy 7d1523e by sralston@gmail.com
+2011-05-11T14:43:49-07:00 heroku[api]: Release v10 created by sralston@gmail.com
+2011-05-11T14:43:49-07:00 heroku[web.1]: State changed from up to bouncing
+2011-05-11T14:43:49-07:00 heroku[web.1]: State changed from created to starting
+2011-05-11T14:43:49-07:00 heroku[slugc]: Slug compilation finished
+2011-05-11T21:43:51+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-05-11T21:43:51+00:00 app[web.1]: >> Stopping ...
+2011-05-11T21:43:51+00:00 heroku[web.1]: Process exited
+2011-05-11T14:44:04-07:00 heroku[rake.3]: State changed from created to starting
+2011-05-11T21:44:05+00:00 heroku[rake.3]: Starting process with command: `rake db:migrate`
+2011-05-11T21:44:07+00:00 heroku[rake.3]: Process exited
+2011-05-11T14:44:07-07:00 heroku[rake.3]: State changed from starting to complete
+2011-05-11T14:45:10-07:00 heroku[nginx]: GET / HTTP/1.1 | 69.181.3.17 | 3276 | http | 503
+2011-05-11T21:45:45+00:00 heroku[router]: GET warm-snow-497.heroku.com/ dyno=web.1 queue=0 wait=0ms service=184ms bytes=2114
+2011-05-11T21:45:45+00:00 heroku[router]: GET warm-snow-497.heroku.com/stylesheets/blueprint/screen.css dyno=web.1 queue=0 wait=0ms service=2ms bytes=12585
+2011-05-11T14:45:45-07:00 heroku[nginx]: GET / HTTP/1.1 | 69.181.3.17 | 1341 | http | 200
+2011-05-11T14:45:45-07:00 heroku[nginx]: GET /stylesheets/blueprint/screen.css?1305150224 HTTP/1.1 | 69.181.3.17 | 3621 | http | 200
+2011-05-11T14:45:45-07:00 heroku[nginx]: GET /stylesheets/custom.css?1305150224 HTTP/1.1 | 69.181.3.17 | 856 | http | 200
+2011-05-11T14:45:45-07:00 heroku[nginx]: GET /stylesheets/blueprint/print.css?1305150224 HTTP/1.1 | 69.181.3.17 | 995 | http | 200
+2011-05-11T14:45:45-07:00 heroku[nginx]: GET /images/logo.png?1305150224 HTTP/1.1 | 69.181.3.17 | 56589 | http | 200
+2011-05-11T21:45:45+00:00 heroku[router]: GET warm-snow-497.heroku.com/images/logo.png dyno=web.1 queue=0 wait=0ms service=39ms bytes=56558
+2011-05-11T21:45:48+00:00 app[web.1]: 
+2011-05-11T21:45:48+00:00 app[web.1]: 
+2011-05-11T21:45:48+00:00 app[web.1]: Started GET "/signup" for 69.181.3.17 at Wed May 11 14:45:48 -0700 2011
+2011-05-11T21:45:48+00:00 app[web.1]:   Processing by UsersController#new as HTML
+2011-05-11T21:45:48+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.6ms)
+2011-05-11T21:45:48+00:00 app[web.1]: Rendered users/new.html.erb within layouts/application (44.0ms)
+2011-05-11T21:45:48+00:00 app[web.1]: Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+2011-05-11T14:45:49-07:00 heroku[nginx]: GET /signup HTTP/1.1 | 69.181.3.17 | 1298 | http | 200
+2011-05-11T21:47:33+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/2 dyno=web.1 queue=0 wait=0ms service=10ms bytes=1900
+2011-05-11T14:47:34-07:00 heroku[nginx]: GET /users/2 HTTP/1.1 | 69.181.3.17 | 1257 | http | 200
+2011-05-11T14:47:37-07:00 heroku[nginx]: GET /users/1 HTTP/1.1 | 69.181.3.17 | 1254 | http | 200
+2011-05-11T15:24:48-07:00 heroku[nginx]: GET /users/2 HTTP/1.1 | 69.181.3.17 | 292 | http | 304
