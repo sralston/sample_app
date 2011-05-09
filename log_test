@@ -1,100 +1,100 @@
-2011-05-11T18:02:45+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.8ms)
-2011-05-11T18:02:45+00:00 app[web.1]: Rendered users/new.html.erb within layouts/application (3.4ms)
-2011-05-11T18:02:45+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
-2011-05-11T18:02:45+00:00 heroku[router]: GET warm-snow-497.heroku.com/signup dyno=web.1 queue=0 wait=0ms service=12ms bytes=1960
-2011-05-11T11:02:45-07:00 heroku[nginx]: GET /signup HTTP/1.1 | 69.181.3.17 | 1298 | http | 200
-2011-05-11T18:02:51+00:00 app[web.1]: 
-2011-05-11T18:02:51+00:00 app[web.1]: 
-2011-05-11T18:02:51+00:00 app[web.1]: Started GET "/help" for 69.181.3.17 at Wed May 11 11:02:51 -0700 2011
-2011-05-11T18:02:51+00:00 app[web.1]:   Processing by PagesController#help as HTML
-2011-05-11T18:02:51+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
-2011-05-11T18:02:51+00:00 app[web.1]: Rendered pages/help.html.erb within layouts/application (2.5ms)
-2011-05-11T18:02:51+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
-2011-05-11T18:02:51+00:00 heroku[router]: GET warm-snow-497.heroku.com/help dyno=web.1 queue=0 wait=0ms service=61ms bytes=2069
-2011-05-11T11:02:52-07:00 heroku[nginx]: GET /help HTTP/1.1 | 69.181.3.17 | 1342 | http | 200
-2011-05-11T18:03:00+00:00 app[web.1]: 
-2011-05-11T18:03:00+00:00 app[web.1]: 
-2011-05-11T18:03:00+00:00 app[web.1]: Started GET "/about" for 69.181.3.17 at Wed May 11 11:03:00 -0700 2011
-2011-05-11T18:03:00+00:00 app[web.1]:   Processing by PagesController#about as HTML
-2011-05-11T18:03:00+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.6ms)
-2011-05-11T18:03:00+00:00 app[web.1]: Rendered pages/about.html.erb within layouts/application (2.9ms)
-2011-05-11T18:03:00+00:00 heroku[router]: GET warm-snow-497.heroku.com/about dyno=web.1 queue=0 wait=0ms service=12ms bytes=2162
-2011-05-11T18:03:00+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms)
-2011-05-11T11:03:00-07:00 heroku[nginx]: GET /about HTTP/1.1 | 69.181.3.17 | 1369 | http | 200
-2011-05-11T12:03:02-07:00 heroku[web.1]: Idling
-2011-05-11T19:03:06+00:00 heroku[web.1]: Stopping process with SIGTERM
-2011-05-11T19:03:06+00:00 app[web.1]: >> Stopping ...
-2011-05-11T19:03:06+00:00 heroku[web.1]: Process exited
-2011-05-11T12:05:24-07:00 heroku[web.1]: Unidling
-2011-05-11T12:05:24-07:00 heroku[web.1]: State changed from created to starting
-2011-05-11T19:05:27+00:00 app[web.1]: 
-2011-05-11T19:05:27+00:00 app[web.1]: 
-2011-05-11T19:05:27+00:00 app[web.1]: Started GET "/contact" for 69.181.3.17 at Wed May 11 12:05:27 -0700 2011
-2011-05-11T12:05:27-07:00 heroku[web.1]: State changed from starting to up
-2011-05-11T19:05:27+00:00 app[web.1]:   Processing by PagesController#contact as HTML
-2011-05-11T19:05:27+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.7ms)
-2011-05-11T19:05:27+00:00 app[web.1]: Rendered pages/contact.html.erb within layouts/application (3.3ms)
-2011-05-11T19:05:27+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 12.9ms)
-2011-05-11T19:05:27+00:00 heroku[router]: GET warm-snow-497.heroku.com/contact dyno=web.1 queue=0 wait=3042ms service=253ms bytes=2059
-2011-05-11T12:05:28-07:00 heroku[nginx]: GET /contact HTTP/1.1 | 69.181.3.17 | 1311 | http | 200
-2011-05-11T19:05:32+00:00 app[web.1]: 
-2011-05-11T19:05:32+00:00 app[web.1]: 
-2011-05-11T19:05:32+00:00 app[web.1]: Started GET "/" for 69.181.3.17 at Wed May 11 12:05:32 -0700 2011
-2011-05-11T19:05:32+00:00 app[web.1]:   Processing by PagesController#home as HTML
-2011-05-11T19:05:32+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
-2011-05-11T19:05:32+00:00 heroku[router]: GET warm-snow-497.heroku.com/ dyno=web.1 queue=0 wait=0ms service=11ms bytes=2114
-2011-05-11T19:05:33+00:00 app[web.1]: 
-2011-05-11T19:05:33+00:00 app[web.1]: 
-2011-05-11T19:05:33+00:00 app[web.1]: Started GET "/signup" for 69.181.3.17 at Wed May 11 12:05:33 -0700 2011
-2011-05-11T19:05:33+00:00 app[web.1]:   Processing by UsersController#new as HTML
-2011-05-11T19:05:33+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
-2011-05-11T19:05:33+00:00 app[web.1]: Rendered users/new.html.erb within layouts/application (2.2ms)
-2011-05-11T19:05:33+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
-2011-05-11T19:05:33+00:00 heroku[router]: GET warm-snow-497.heroku.com/signup dyno=web.1 queue=0 wait=0ms service=12ms bytes=1960
-2011-05-11T13:05:35-07:00 heroku[web.1]: Idling
-2011-05-11T13:05:37-07:00 heroku[web.1]: State changed from up to down
-2011-05-11T20:05:38+00:00 heroku[web.1]: Stopping process with SIGTERM
-2011-05-11T20:05:38+00:00 app[web.1]: >> Stopping ...
-2011-05-11T20:05:38+00:00 heroku[web.1]: Process exited
-2011-05-11T13:33:29-07:00 heroku[web.1]: Unidling
-2011-05-11T20:33:31+00:00 heroku[web.1]: Starting process with command: `thin -p 51965 -e production -R /home/heroku_rack/heroku.ru start`
-2011-05-11T20:33:32+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
-2011-05-11T20:33:32+00:00 app[web.1]: >> Maximum connections set to 1024
-2011-05-11T20:33:32+00:00 app[web.1]: >> Listening on 0.0.0.0:51965, CTRL+C to stop
-2011-05-11T13:33:33-07:00 heroku[web.1]: State changed from starting to up
-2011-05-11T20:33:33+00:00 heroku[router]: POST warm-snow-497.heroku.com/_heroku/console dyno=web.1 queue=0 wait=3835ms service=467ms bytes=183
-2011-05-11T13:33:34-07:00 heroku[nginx]: POST /_heroku/console?session_id=784934&session_action=create HTTP/1.1 | 50.16.144.143 | 165 | http | 200
-2011-05-11T13:59:44-07:00 heroku[rake.1]: State changed from created to starting
-2011-05-11T20:59:46+00:00 heroku[rake.1]: Starting process with command: `rake db:migrate`
-2011-05-11T20:59:48+00:00 heroku[rake.1]: Process exited
-2011-05-11T13:59:48-07:00 heroku[rake.1]: State changed from starting to complete
-2011-05-11T21:00:44+00:00 app[web.1]: 
-2011-05-11T21:00:44+00:00 app[web.1]: 
-2011-05-11T21:00:44+00:00 app[web.1]: Started GET "/" for 69.181.3.17 at Wed May 11 14:00:44 -0700 2011
-2011-05-11T21:00:44+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.8ms)
-2011-05-11T21:00:44+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (3.8ms)
-2011-05-11T21:00:44+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 7.5ms | ActiveRecord: 8.3ms)
-2011-05-11T21:00:44+00:00 heroku[router]: GET warm-snow-497.heroku.com/ dyno=web.1 queue=0 wait=0ms service=169ms bytes=2114
-2011-05-11T14:00:44-07:00 heroku[nginx]: GET / HTTP/1.1 | 69.181.3.17 | 1340 | http | 200
-2011-05-11T14:00:47-07:00 heroku[nginx]: GET /about HTTP/1.1 | 69.181.3.17 | 292 | http | 304
-2011-05-11T21:00:50+00:00 app[web.1]: 
-2011-05-11T21:00:50+00:00 app[web.1]: 
-2011-05-11T21:00:50+00:00 app[web.1]: Started GET "/users/2" for 69.181.3.17 at Wed May 11 14:00:50 -0700 2011
-2011-05-11T21:00:50+00:00 app[web.1]: 
-2011-05-11T21:00:50+00:00 app[web.1]: ActionController::RoutingError (No route matches "/users/2"):
-2011-05-11T21:00:50+00:00 app[web.1]:   
-2011-05-11T21:00:50+00:00 app[web.1]: 
-2011-05-11T21:00:50+00:00 app[web.1]: 
-2011-05-11T21:00:50+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/2 dyno=web.1 queue=0 wait=0ms service=13ms bytes=922
-2011-05-11T21:00:53+00:00 app[web.1]: 
-2011-05-11T21:00:53+00:00 app[web.1]: 
-2011-05-11T21:00:53+00:00 app[web.1]: Started GET "/users/1" for 69.181.3.17 at Wed May 11 14:00:53 -0700 2011
-2011-05-11T21:00:53+00:00 app[web.1]: 
-2011-05-11T21:00:53+00:00 app[web.1]: ActionController::RoutingError (No route matches "/users/1"):
-2011-05-11T21:00:53+00:00 app[web.1]:   
-2011-05-11T21:00:53+00:00 app[web.1]: 
-2011-05-11T21:00:53+00:00 app[web.1]: 
-2011-05-11T21:00:53+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=3ms bytes=922
-2011-05-11T14:00:54-07:00 heroku[nginx]: GET /users/1 HTTP/1.1 | 69.181.3.17 | 953 | http | 404
-2011-05-11T21:00:56+00:00 app[web.1]: 
-2011-05-11T14:00:56-07:00 heroku[nginx]: GET /users/3 HTTP/1.1 | 69.181.3.17 | 952 | http | 404
+2011-05-11T21:09:04+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=3ms bytes=922
+2011-05-11T21:09:04+00:00 app[web.1]: 
+2011-05-11T21:09:04+00:00 app[web.1]: ActionController::RoutingError (No route matches "/users/1"):
+2011-05-11T21:09:04+00:00 app[web.1]:   
+2011-05-11T21:09:04+00:00 app[web.1]: 
+2011-05-11T21:09:04+00:00 app[web.1]: 
+2011-05-11T14:09:05-07:00 heroku[nginx]: GET /users/1 HTTP/1.1 | 69.181.3.17 | 952 | http | 404
+2011-05-11T21:09:08+00:00 app[web.1]: 
+2011-05-11T21:09:08+00:00 app[web.1]: 
+2011-05-11T21:09:08+00:00 app[web.1]: Started GET "/" for 69.181.3.17 at Wed May 11 14:09:08 -0700 2011
+2011-05-11T21:09:08+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-05-11T21:09:08+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.7ms)
+2011-05-11T21:09:08+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (3.7ms)
+2011-05-11T21:09:08+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 13.9ms)
+2011-05-11T21:09:08+00:00 heroku[router]: GET warm-snow-497.heroku.com/ dyno=web.1 queue=0 wait=0ms service=20ms bytes=2114
+2011-05-11T21:09:09+00:00 heroku[router]: GET warm-snow-497.heroku.com/stylesheets/custom.css dyno=web.1 queue=0 wait=0ms service=2ms bytes=1575
+2011-05-11T14:09:09-07:00 heroku[nginx]: GET / HTTP/1.1 | 69.181.3.17 | 1340 | http | 200
+2011-05-11T14:09:09-07:00 heroku[nginx]: GET /stylesheets/blueprint/screen.css?1305148030 HTTP/1.1 | 69.181.3.17 | 3621 | http | 200
+2011-05-11T14:09:09-07:00 heroku[nginx]: GET /stylesheets/blueprint/print.css?1305148030 HTTP/1.1 | 69.181.3.17 | 995 | http | 200
+2011-05-11T14:09:09-07:00 heroku[nginx]: GET /images/logo.png?1305148030 HTTP/1.1 | 69.181.3.17 | 56588 | http | 200
+2011-05-11T21:09:12+00:00 app[web.1]: 
+2011-05-11T21:09:12+00:00 app[web.1]: 
+2011-05-11T21:09:12+00:00 app[web.1]: Started GET "/contact" for 69.181.3.17 at Wed May 11 14:09:12 -0700 2011
+2011-05-11T21:09:12+00:00 app[web.1]:   Processing by PagesController#contact as HTML
+2011-05-11T21:09:12+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
+2011-05-11T21:09:12+00:00 app[web.1]: Rendered pages/contact.html.erb within layouts/application (2.2ms)
+2011-05-11T21:09:12+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+2011-05-11T14:09:12-07:00 heroku[nginx]: GET /contact HTTP/1.1 | 69.181.3.17 | 1311 | http | 200
+2011-05-11T21:09:09+00:00 heroku[router]: GET warm-snow-497.heroku.com/stylesheets/blueprint/print.css dyno=web.1 queue=0 wait=0ms service=2ms bytes=1534
+2011-05-11T21:09:16+00:00 app[web.1]:   
+2011-05-11T14:09:16-07:00 heroku[nginx]: GET /users HTTP/1.1 | 69.181.3.17 | 953 | http | 404
+2011-05-11T21:09:18+00:00 app[web.1]: 
+2011-05-11T21:09:18+00:00 app[web.1]: 
+2011-05-11T21:09:18+00:00 app[web.1]: Started GET "/users/1" for 69.181.3.17 at Wed May 11 14:09:18 -0700 2011
+2011-05-11T21:09:18+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/1 dyno=web.1 queue=0 wait=0ms service=4ms bytes=922
+2011-05-11T21:09:18+00:00 app[web.1]: 
+2011-05-11T21:09:18+00:00 app[web.1]: ActionController::RoutingError (No route matches "/users/1"):
+2011-05-11T21:09:18+00:00 app[web.1]:   
+2011-05-11T21:09:18+00:00 app[web.1]: 
+2011-05-11T21:09:18+00:00 app[web.1]: 
+2011-05-11T14:09:19-07:00 heroku[nginx]: GET /users/1 HTTP/1.1 | 69.181.3.17 | 952 | http | 404
+2011-05-11T14:11:44-07:00 heroku[slugc]: Slug compilation started
+2011-05-11T14:11:50-07:00 heroku[api]: Deploy fe3e76c by sralston@gmail.com
+2011-05-11T14:11:50-07:00 heroku[api]: Release v9 created by sralston@gmail.com
+2011-05-11T14:11:50-07:00 heroku[web.1]: State changed from up to bouncing
+2011-05-11T14:11:50-07:00 heroku[web.1]: State changed from created to starting
+2011-05-11T14:11:50-07:00 heroku[slugc]: Slug compilation finished
+2011-05-11T21:11:52+00:00 heroku[web.1]: Starting process with command: `thin -p 49585 -e production -R /home/heroku_rack/heroku.ru start`
+2011-05-11T21:11:52+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-05-11T21:11:52+00:00 app[web.1]: >> Stopping ...
+2011-05-11T21:11:53+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-05-11T21:11:53+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-05-11T21:11:53+00:00 app[web.1]: >> Listening on 0.0.0.0:49585, CTRL+C to stop
+2011-05-11T21:11:58+00:00 app[web.1]: 
+2011-05-11T21:11:58+00:00 app[web.1]: 
+2011-05-11T21:11:58+00:00 app[web.1]: Started GET "/" for 69.181.3.17 at Wed May 11 14:11:58 -0700 2011
+2011-05-11T21:11:58+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-05-11T21:11:58+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.7ms)
+2011-05-11T21:11:58+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (6.2ms)
+2011-05-11T21:11:58+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 15.1ms)
+2011-05-11T21:12:03+00:00 app[web.1]: 
+2011-05-11T21:12:03+00:00 app[web.1]: 
+2011-05-11T21:12:03+00:00 app[web.1]: Started GET "/users/1" for 69.181.3.17 at Wed May 11 14:12:03 -0700 2011
+2011-05-11T21:12:03+00:00 app[web.1]:   Processing by UsersController#show as HTML
+2011-05-11T21:12:03+00:00 app[web.1]:   Parameters: {"id"=>"1"}
+2011-05-11T21:12:03+00:00 app[web.1]: Completed   in 2ms
+2011-05-11T21:12:03+00:00 app[web.1]: 
+2011-05-11T21:12:03+00:00 app[web.1]: NameError (uninitialized constant UsersController::User):
+2011-05-11T21:12:03+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `show'
+2011-05-11T21:12:03+00:00 app[web.1]: 
+2011-05-11T21:12:03+00:00 app[web.1]: 
+2011-05-11T21:12:06+00:00 app[web.1]: 
+2011-05-11T21:12:06+00:00 app[web.1]: 
+2011-05-11T21:12:06+00:00 app[web.1]: Started GET "/users/2" for 69.181.3.17 at Wed May 11 14:12:06 -0700 2011
+2011-05-11T21:12:06+00:00 app[web.1]:   Processing by UsersController#show as HTML
+2011-05-11T21:12:06+00:00 app[web.1]:   Parameters: {"id"=>"2"}
+2011-05-11T21:12:06+00:00 app[web.1]: Completed   in 2ms
+2011-05-11T21:12:06+00:00 app[web.1]: 
+2011-05-11T21:12:06+00:00 app[web.1]: NameError (uninitialized constant UsersController::User):
+2011-05-11T21:12:06+00:00 app[web.1]:   app/controllers/users_controller.rb:8:in `show'
+2011-05-11T21:12:06+00:00 app[web.1]: 
+2011-05-11T21:12:06+00:00 app[web.1]: 
+2011-05-11T21:12:06+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/2 dyno=web.1 queue=0 wait=0ms service=51ms bytes=934
+2011-05-11T14:12:07-07:00 heroku[nginx]: GET /users/2 HTTP/1.1 | 69.181.3.17 | 964 | http | 500
+2011-05-11T21:17:06+00:00 app[web.1]: 
+2011-05-11T21:17:06+00:00 app[web.1]: 
+2011-05-11T21:17:06+00:00 app[web.1]: Started GET "/" for 69.181.3.17 at Wed May 11 14:17:06 -0700 2011
+2011-05-11T21:17:06+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-05-11T21:17:06+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.6ms)
+2011-05-11T21:17:06+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (4.7ms)
+2011-05-11T21:17:06+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+2011-05-11T21:17:06+00:00 heroku[router]: GET warm-snow-497.heroku.com/ dyno=web.1 queue=0 wait=0ms service=13ms bytes=2114
+2011-05-11T21:20:49+00:00 app[web.1]: 
+2011-05-11T21:20:49+00:00 app[web.1]: 
+2011-05-11T21:20:49+00:00 app[web.1]: Started GET "/users/new" for 69.181.3.17 at Wed May 11 14:20:49 -0700 2011
+2011-05-11T21:20:49+00:00 heroku[router]: GET warm-snow-497.heroku.com/users/new dyno=web.1 queue=0 wait=0ms service=10ms bytes=1960
+2011-05-11T21:20:49+00:00 app[web.1]:   Processing by UsersController#new as HTML
+2011-05-11T21:20:49+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.5ms)
+2011-05-11T21:20:49+00:00 app[web.1]: Rendered users/new.html.erb within layouts/application (2.3ms)
+2011-05-11T21:20:49+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
